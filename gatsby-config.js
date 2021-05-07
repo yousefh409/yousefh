@@ -24,5 +24,6 @@
          path: path.join(__dirname, `src`, `data`),
        },
      },
+     `gatsby-plugin-react-helmet`,
    ],
  }

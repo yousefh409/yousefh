@@ -2,23 +2,33 @@ import React from "react"
 import indexStyles from "../styles/index.module.css"
 // import Image from "../components/image.jsx"
 import  { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import Container from "react-bootstrap"
-// import "../styles/global.scss"
 import 'font-awesome/css/font-awesome.min.css';
-// import 'font-awesome/less/font-awesome.less';
 import "@fortawesome/fontawesome-svg-core/styles.css";
-// import { faCoffee } from '@fortawesome/pro-regular-svg-icons'
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Helmet } from "react-helmet"
+import resume from "../../static/Resume.pdf"
+import Typing from "react-typing-animation"
 
 export default function Home() {
   return (
 
     <div>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <title>Yousef H.</title>
+          <link rel="canonical" href="https://www.yousefh.org/" />
+        </Helmet>
       <div className={indexStyles.landingContainer}>
         <div>
           <div className={indexStyles.mainInfo}>
             {/* <Image className={indexStyles.profilePic} filename={"yousef.jpg"} /> */}
-            Salutations, I am Yousef
+            <Typing
+              speed={50}
+              hideCursor={false}
+            >
+              Salutations, I am Yousef
+            </Typing>
+            
           </div>
           <div className={indexStyles.linkInfo}>
             <a
@@ -45,7 +55,7 @@ export default function Home() {
             </a>
           </div>
           <a
-              href="/Resume.pdf"
+              href={resume}
               className={indexStyles.resumeLink}
               download="Yousef Helal Resume.pdf"
             >
