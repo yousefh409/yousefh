@@ -27,11 +27,61 @@
 }
 
 .mainInfo {
-    padding-bottom: 10%;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.linkInfo {
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkIcon {
+    margin: 5px;
+    color: white;
+}
+
+.linkIcon:active {
+    color: whitesmoke;
+    animation: bounce 1s infinite; 
+}
+
+.linkIcon:hover{
+    color: rgb(85, 85, 219);;
+    animation: bounce 1s infinite; 
+}
+
+.resumeLink:hover {
+    color: whitesmoke;
+    animation: bounceX 1s infinite; 
+    text-decoration: underline;
+}
+
+.resumeLink {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85, 85, 219);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes bounce {
+    0% { }
+    50% { transform: translateY(-5px); }
+    100% { }
+}
+
+@keyframes bounceX {
+    0% { }
+    50% { transform: translateX(-5px); }
+    100% { }
+}
 
 
 body {

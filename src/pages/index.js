@@ -1,87 +1,60 @@
 import React from "react"
 import indexStyles from "../styles/index.module.css"
-import Image from "../components/image.jsx"
+// import Image from "../components/image.jsx"
 import  { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import Container from "react-bootstrap"
+// import Container from "react-bootstrap"
 // import "../styles/global.scss"
+import 'font-awesome/css/font-awesome.min.css';
+// import 'font-awesome/less/font-awesome.less';
+import "@fortawesome/fontawesome-svg-core/styles.css";
+// import { faCoffee } from '@fortawesome/pro-regular-svg-icons'
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
 
     <div>
       <div className={indexStyles.landingContainer}>
-        <div className={indexStyles.mainInfo}>
-          {/* <Image className={indexStyles.profilePic} filename={"yousef.jpg"} /> */}
-          Hello, I am Yousef
-          
-        </div>
-        <div className="d-md-inline-flex icons-container">
+        <div>
+          <div className={indexStyles.mainInfo}>
+            {/* <Image className={indexStyles.profilePic} filename={"yousef.jpg"} /> */}
+            Salutations, I am Yousef
+          </div>
+          <div className={indexStyles.linkInfo}>
+            <a
+              href="https://github.com/yousefh409"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={indexStyles.linkIcon}
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                title="Github"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yousef-helal-2a9a42199/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={indexStyles.linkIcon}
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                title="LinkedIn"
+              />
+            </a>
+          </div>
           <a
-            href="https://www.github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "github"]}
-              className="icons github"
-              title="Github"
-            />
-          </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "linkedin"]}
-              className="icons linkedin"
-              title="LinkedIn"
-            />
-          </a>
-          <a
-            href="https://www.freecodecamp.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "free-code-camp"]}
-              className="icons fcc"
-              title="FreeCodeCamp"
-            />
-          </a>
-          <a
-            href="https://www.hackerrank.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fab", "hackerrank"]}
-              className="icons hr"
-              title="Hackerrank"
-            />
-          </a>
-          <a
-            href="mailto:johndoe@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={["fas", "envelope"]}
-              className="icons mail"
-              title="e-mail"
-            />
-          </a>
-          <a href="../../resume.pdf" target="_blank" download>
-            <FontAwesomeIcon
-              icon={["fas", "file-alt"]}
-              className="icons file"
-              title="Resume"
-            />
-          </a>
+              href="/Resume.pdf"
+              className={indexStyles.resumeLink}
+              download="Yousef Helal Resume.pdf"
+            >
+              Resume
+            </a>
         </div>
 
       </div>
-      <div className={indexStyles.aboutContainer}>
+      {/* <div className={indexStyles.aboutContainer}>
         d
       </div>
       <div className={indexStyles.experienceContainer}>
@@ -89,6 +62,6 @@ export default function Home() {
       </div>
       <div className={indexStyles.projectContainer}>
         d
-      </div>
+      </div> */}
     </div>)
 }
