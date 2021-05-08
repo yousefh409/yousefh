@@ -8,6 +8,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Helmet } from "react-helmet"
 import resume from "../../static/Resume.pdf"
 import Typing from "react-typing-animation"
+import { faArrowAltCircleDown } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -16,9 +17,11 @@ export default function Home() {
       <Helmet>
           <meta charSet="utf-8" />
           <title>Yousef H.</title>
+          <meta name="description" content="A personal website for an individual by the name of Yousef Helal" />
           <link rel="canonical" href="https://www.yousefh.org/" />
         </Helmet>
       <div className={indexStyles.landingContainer}>
+        <div>invisible</div>
         <div>
           <div className={indexStyles.mainInfo}>
             {/* <Image className={indexStyles.profilePic} filename={"yousef.jpg"} /> */}
@@ -28,7 +31,6 @@ export default function Home() {
             >
               Salutations, I am Yousef
             </Typing>
-            
           </div>
           <div className={indexStyles.linkInfo}>
             <a
@@ -54,15 +56,22 @@ export default function Home() {
               />
             </a>
           </div>
-          <a
-              href={resume}
-              className={indexStyles.resumeLink}
-              download="Yousef Helal Resume.pdf"
-            >
-              Resume
+          <div className={indexStyles.resumeHolder}>
+            <a
+                href={resume}
+                className={indexStyles.resumeLink}
+                download="Yousef Helal Resume.pdf"
+              >
+                Resume
             </a>
+          </div>
         </div>
-
+        <div className={indexStyles.downHolder}>
+            <FontAwesomeIcon
+              icon={faArrowAltCircleDown}
+              title="LinkedIn"
+            />
+        </div>
       </div>
       {/* <div className={indexStyles.aboutContainer}>
         d
