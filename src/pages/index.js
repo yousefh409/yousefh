@@ -8,7 +8,11 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Helmet } from "react-helmet"
 import resume from "../../static/Resume.pdf"
 import Typing from "react-typing-animation"
-import { faArrowAltCircleDown } from "@fortawesome/free-solid-svg-icons";
+import { faArrowAltCircleDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import projectData from "../data/projectData.json"
+import ProjectContainer from "../components/project";
+import { Link } from "react-scroll"
+
 
 export default function Home() {
   return (
@@ -55,6 +59,17 @@ export default function Home() {
                 title="LinkedIn"
               />
             </a>
+            <a
+              href="mailto:yousefh@berkeley.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={indexStyles.linkIcon}
+            >
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                title="yousefh@berkeley.edu"
+              />
+            </a>
           </div>
           <div className={indexStyles.resumeHolder}>
             <a
@@ -66,21 +81,35 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className={indexStyles.downHolder}>
-            <FontAwesomeIcon
-              icon={faArrowAltCircleDown}
-              title="LinkedIn"
-            />
+        
+          <div className={indexStyles.downHolder}>
+          <Link to="#about" spy={true} smooth={true} duration={500} offset={-20}>
+              <FontAwesomeIcon
+                icon={faArrowAltCircleDown}
+                title="See the rest"
+              />
+              </Link>
+          </div>
+        
+      </div>
+      <div id="#about" className={indexStyles.aboutContainer}>
+        <div className={indexStyles.containerTitle}>
+          About
+        </div>
+        <div className={indexStyles.aboutInfo}>
+          I am a Junior currently studing Electrical Engineering and Computer Science at the University of California, Berkeley. Previous to that, I attended De Anza College, and have since to transferred over here. My interests mainly lie in the fields of Robotics, Machine Learning, and Systems, but I enjoy a wide array of subfields. In my spare time, I enjoy playing video games (Rocket League and Valorant mainly at the moment), as well as playing Basketball, Soccer, and Tennis.
         </div>
       </div>
-      {/* <div className={indexStyles.aboutContainer}>
-        d
-      </div>
-      <div className={indexStyles.experienceContainer}>
-        d
-      </div>
+
       <div className={indexStyles.projectContainer}>
-        d
-      </div> */}
+       <div className={indexStyles.containerTitle}>
+          Projects
+        </div>
+        <div className={indexStyles.projectWrapper}>
+          {projectData.map((project) => (
+            <ProjectContainer project={project}/>
+          ))}
+        </div>
+      </div>
     </div>)
 }

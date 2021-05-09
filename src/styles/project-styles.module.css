@@ -1,0 +1,46 @@
+
+
+.projectContainer {
+    border: 1px grey solid;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+}
+
+.projectImage {
+
+}
+
+.projectTitle {
+    text-decoration: underline;
+    font-size: 24px;
+    margin: 3px;
+}
+
+
+.projectDescription {
+    font-size: 18px;
+    color: grey;
+    margin: 3px;
+
+}
+
+.skillContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.skill {
+    font-size: 15px;
+    color: grey;
+    border-radius: 30px;
+    border: 1px grey solid;
+    padding: 5px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "DA Hack",
+        "description": "De Anza College's first ever virtual hackathon. Responsible for development of the website",
+        "image": "dahacklogo.png",
+        "link": "https://dahack.dev/",
+        "skills": ["React", "HTML", "CSS", "Gatsby"]
+    },
+    {
+        "name": "All Chess Discord Bot",
+        "description": "A chess bot for discord that makes organizing games, and practicing chess that much easier",
+        "image": "dahacklogo.png",
+        "link": "https://top.gg/bot/777276681517531187/invite/",
+        "skills": ["Python", "REST", "discord.py"]
+    },
+    {
+        "name": "Teacheract",
+        "description": "A website allowing teachers to publish videos, quizzes, etc, and view students progress real-time",
+        "image": "dahacklogo.png",
+        "link": "https://teacheract.org/",
+        "skills": ["Flutter", "Dart", "Firebase"]
+    },
+    {
+        "name": "RayTracingPy",
+        "description": "A cool ray tracer made using Python, that can mainly produce spheres (for now)",
+        "image": "dahacklogo.png",
+        "link": "https://github.com/yousefh409/RayTracingPy",
+        "skills": ["Python", "Numpy", "MatPlotLib"]
+    },
+    {
+        "name": "Tank Game",
+        "description": "A tank game made using the C++ SFML library. Served as project lead, and was developed during CIS 29, Winter 2021",
+        "image": "dahacklogo.png",
+        "link": "https://github.com/yousefh409/tankGame",
+        "skills": ["C++", "SFML"]
+    }
+
+]
