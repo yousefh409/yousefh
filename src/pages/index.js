@@ -94,7 +94,7 @@ export default function Home() {
       </div>
       <div id="#about" className={indexStyles.aboutContainer}>
         <div className={indexStyles.containerTitle}>
-          about
+          About
         </div>
         <div className={indexStyles.aboutInfo}>
           I am a Junior currently studing Electrical Engineering and Computer Science at the University of California, Berkeley. Previous to that, I attended De Anza College, and have since to transferred over here. My interests mainly lie in the fields of Robotics and Signal Processing, but I enjoy a wide array of EE and CS subfields. In my spare time, I enjoy playing video games (Rocket League and Valorant mainly at the moment), as well as playing Basketball, Soccer, and Tennis.
@@ -103,7 +103,7 @@ export default function Home() {
 
       <div className={indexStyles.projectContainer}>
        <div className={indexStyles.containerTitle}>
-          projects
+          Projects
         </div>
         <div className={indexStyles.projectWrapper}>
           {projectData.map((project) => (
