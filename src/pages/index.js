@@ -6,7 +6,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Helmet } from "react-helmet"
-import resume from "../../static/Resume.pdf"
+import resume from "../../static/Resume Yousef Helal.pdf"
 import Typing from "react-typing-animation"
 import { faArrowAltCircleDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import projectData from "../data/projectData.json"

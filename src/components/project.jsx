@@ -1,4 +1,5 @@
 import React from "react"
+// import { Image } from "../components/image"
 import projectStyles from "../styles/project-styles.module.css"
 export default class ProjectContainer extends React.Component {
     render() {
@@ -8,9 +9,9 @@ export default class ProjectContainer extends React.Component {
                 href={this.props.project.link}
                 target="_blank"
                 rel="noopener noreferrer">
-                <div className={projectStyles.projectContainer}>
+                <div className={projectStyles.projectHolder}>
                     <div className={projectStyles.projectImage}>
-
+                        {/* <Image filename="yousef.jpg" /> */}
                     </div>
                 <div className={projectStyles.projectTitle}>
                     {this.props.project.name}
