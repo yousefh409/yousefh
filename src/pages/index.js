@@ -82,14 +82,14 @@ export default function Home() {
           </div>
         </div>
         
-          <div className={indexStyles.downHolder}>
-          <Link to="#about" spy={true} smooth={true} duration={500} offset={-20}>
+        <div className={indexStyles.downHolder}>
+            <Link to="#about" spy={true} smooth={true} duration={500} offset={-20}>
               <FontAwesomeIcon
                 icon={faArrowAltCircleDown}
                 title="See the rest"
               />
-              </Link>
-          </div>
+            </Link>
+        </div>
         
       </div>
       <div id="#about" className={indexStyles.aboutContainer}>
@@ -97,7 +97,7 @@ export default function Home() {
           About
         </div>
         <div className={indexStyles.aboutInfo}>
-          I am a Junior currently studing Electrical Engineering and Computer Science at the University of California, Berkeley. Previous to that, I attended De Anza College, and have since to transferred over here. My interests mainly lie in the fields of Robotics, Quantum Computing, and Digital Signal Processing, but I enjoy a wide array of EE and CS subfields. In my spare time, I enjoy playing video games (Rocket League and Valorant mainly at the moment), as well as playing Basketball, Soccer, and Tennis.
+          I am a Junior currently studying Electrical Engineering and Computer Science at the University of California, Berkeley. Previous to that, I attended De Anza College, and have since transferred over here. On the industry side, I have experience in Mobile and Web Development, but I am always eager to learn more about new areas! My research interests mainly lie in the fields of Robotics, Quantum Computing, and Digital Signal Processing, but I enjoy a wide array of CS and EE subfields. In my spare time, I enjoy playing video games (Rocket League and Valorant mainly at the moment), as well as playing Basketball, Soccer, and Tennis.
         </div>
       </div>
 

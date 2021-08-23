@@ -15,7 +15,7 @@
     },
     {
         "name": "Teacheract",
-        "description": "A website allowing teachers to publish videos, quizzes, etc, and view students progress real-time",
+        "description": "A website allowing teachers to publish videos, quizzes, etc, and view students' progress real-time",
         "image": "dahacklogo.png",
         "link": "https://teacheract.org/",
         "skills": ["Flutter", "Dart", "Firebase"]
@@ -29,10 +29,16 @@
     },
     {
         "name": "Tank Game",
-        "description": "A tank game made using the C++ SFML library. Served as project lead, and was developed during CIS 29, Winter 2021",
+        "description": "A tank game made using the C++ SFML library. Led project development, which occured during CIS 29, Winter 2021",
         "image": "dahacklogo.png",
         "link": "https://github.com/yousefh409/tankGame",
         "skills": ["C++", "SFML"]
+    },
+    {
+        "name": "BYOW",
+        "description": "A game whose world is completley pseudorandomly generated, with teleporters, keys, and interactions scattered throughout.",
+        "image": "dahacklogo.png",
+        "link": "https://www.youtube.com/watch?v=GmVdB7PTm_E",
+        "skills": ["Java", "StdDraw"]
     }
-
 ]
