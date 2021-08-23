@@ -45,11 +45,11 @@ export default function Home() {
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                title="Github"
+                title="GitHub"
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/yousef-helal-2a9a42199/"
+              href="https://www.linkedin.com/in/yousef-helal/"
               target="_blank"
               rel="noopener noreferrer"
               className={indexStyles.linkIcon}
