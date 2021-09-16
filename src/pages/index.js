@@ -103,7 +103,7 @@ export default function Home() {
 
       <div className={indexStyles.projectContainer}>
        <div className={indexStyles.containerTitle}>
-          Projects
+          Selected Projects
         </div>
         <div className={indexStyles.projectWrapper}>
           {projectData.map((project) => (
