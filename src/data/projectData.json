@@ -40,5 +40,12 @@
         "image": "dahacklogo.png",
         "link": "https://www.youtube.com/watch?v=GmVdB7PTm_E",
         "skills": ["Java", "StdDraw"]
+    },
+    {
+        "name": "OpenDoAR",
+        "description": "An augmented Reality solution for effortless and safe returning to physical places.",
+        "image": "dahacklogo.png",
+        "link": "https://devpost.com/software/opendoar?ref_content=user-portfolio&ref_feature=in_progress",
+        "skills": ["Flutter", "FireBase", "ARKit"]
     }
 ]
