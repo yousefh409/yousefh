@@ -14,13 +14,6 @@
         "skills": ["Python", "REST", "discord.py"]
     },
     {
-        "name": "Teacheract",
-        "description": "A website allowing teachers to publish videos, quizzes, etc, and view students' progress real-time.",
-        "image": "dahacklogo.png",
-        "link": "https://teacheract.org/",
-        "skills": ["Flutter", "Dart", "Firebase"]
-    },
-    {
         "name": "RayTracingPy",
         "description": "A cool ray tracer made using Python, that can mainly produce spheres (for now).",
         "image": "dahacklogo.png",
