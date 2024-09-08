@@ -40,5 +40,26 @@
         "image": "dahacklogo.png",
         "link": "https://devpost.com/software/opendoar?ref_content=user-portfolio&ref_feature=in_progress",
         "skills": ["Flutter", "FireBase", "ARKit"]
+    },
+    {
+        "name": "Five Pillars Cemetery",
+        "description": "A website for the Five Pillars Cemetery, a locla muslim burial site.",
+        "image": "dahacklogo.png",
+        "link": "https://janazas.org/",
+        "skills": ["React", "HTML", "CSS", "TypeScript"]
+    },
+    {
+        "name": "Spatialyze",
+        "description": "A Geospatial Video Analytic System with Spatial-Aware Optimizations",
+        "image": "dahacklogo.png",
+        "link": "https://github.com/yousefh409/106a-final-proj",
+        "skills": ["Python", "Postgres", "SQL"]
+    },
+    {
+        "name": "Autonomous Flying Drone",
+        "description": "An autonomous flying parrot drone shipping system.",
+        "image": "dahacklogo.png",
+        "link": "https://github.com/yousefh409/106a-final-proj",
+        "skills": ["ROS", "Python", "Computer Vision"]
     }
 ]
