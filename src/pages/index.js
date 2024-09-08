@@ -60,14 +60,14 @@ export default function Home() {
               />
             </a>
             <a
-              href="mailto:yousefh@berkeley.edu"
+              href="mailto:yousefh@stanford.edu"
               target="_blank"
               rel="noopener noreferrer"
               className={indexStyles.linkIcon}
             >
               <FontAwesomeIcon
                 icon={faEnvelope}
-                title="yousefh@berkeley.edu"
+                title="yousefh@stanford.edu"
               />
             </a>
           </div>
@@ -97,7 +97,25 @@ export default function Home() {
           About
         </div>
         <div className={indexStyles.aboutInfo}>
-          I am a Junior currently studying Electrical Engineering and Computer Science at the UC Berkeley. I have previously interned at Cloudera and BACR, and am currently looking for internships for summer 2023! On the research side, I am currently working on the Apperception project under Prof. Alvin Cheung at SkyLab here at Berkeley. Some of my other interests include soccer, racing, teaching (I am currently a TA for EE120: Signals and Systems), and more!
+            <div>
+              I’m currently pursuing an MS in Electrical Engineering at Stanford University, with an expected graduation in June 2026. Before this, I completed my BS in Electrical Engineering and Computer Sciences at UC Berkeley.          
+            </div>
+            <div>
+              During my internships, I had the chance to work with a number of great teams. At AMD, I contributed to the development of the Microblaze V processor, a RISC-V based soft processor, and at Cloudera, I helped automate network monitoring processes, which improved efficiency in their release pipeline. 
+            </div>
+            <div>
+              I also enjoy teaching, and as a TA at UC Berkeley, I taught EE 120 (Signals and Systems) for 3 semesters. For 2 of these semesters, I had the oppurtunity to lead the team as a Head TA, where I led a team of 5 TAs and handled admin duties. For my work in EE120, I had the honor of recieving the “Outstanding GSI” and “EECS Outstanding TA” awards.
+            </div>
+            <div>
+              In my time TAing EE120, we employed a number of innovative teaching methods, including industry application labs, deployable labs that could be run in the cloud, and automated grading to save TA hours. Our work (Toward Scalable Laboratories in Signals and
+Systems: Content, Deployment, and Grading) was published and presented at ISCAS 2024.
+            </div>
+            <div>
+              As a Research Assistant at UC Berkeley Skylab, I worked on Spatialyze, the first geospatially optimized Video Database Management System (VDBMS), under Prof. Alvin Cheung. By leveraging road network data, we improved video query execution times by up to 100%, enhancing performance for geospatial applications. Our work (Spatialyze: A Geospatial Video Analytics System
+with Spatial-Aware Optimizations) was published in VLDB 2024.
+            </div>
+                  
+            
         </div>
       </div>
 
