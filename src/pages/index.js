@@ -33,7 +33,7 @@ export default function Home() {
               speed={50}
               hideCursor={false}
             >
-              Salutations, I am Yousef
+              Salam, I am Yousef
             </Typing>
           </div>
           <div className={indexStyles.linkInfo}>
