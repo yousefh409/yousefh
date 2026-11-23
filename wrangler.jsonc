@@ -1,0 +1,7 @@
+{
+  "name": "yousefh-site",
+  "compatibility_date": "2026-11-01",
+  // Cutover, once the yousefh.org zone is active on Cloudflare: uncomment.
+  // "routes": [{ "pattern": "yousefh.org", "custom_domain": true }, { "pattern": "www.yousefh.org", "custom_domain": true }],
+  "assets": { "directory": "./public", "not_found_handling": "404-page" }
+}
